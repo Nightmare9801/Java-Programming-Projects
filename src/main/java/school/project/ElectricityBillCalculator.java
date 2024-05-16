@@ -5,21 +5,30 @@ import java.util.Scanner;
 public class ElectricityBillCalculator {
     public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {
-            System.out.println("Enter consumer name, number, month, and units consumed:");
-            String consumerName = scanner.next();
-            int consumerNumber = scanner.nextInt();
-            String month = scanner.next();
-            int unitsConsumed = scanner.nextInt();
-            
-            
-            double billAmount = getBill(unitsConsumed);
-            
-            System.out.println("--- Electricity Bill ---");
-            System.out.println("Consumer Name: " + consumerName);
-            System.out.println("Consumer Number: " + consumerNumber);
-            System.out.println("Month: " + month);
-            System.out.println("Units Consumed: " + unitsConsumed);
-            System.out.printf("Bill Amount: ₹%.2f%n", billAmount);
+            String consumerName;
+            int consumerNumber;
+            String month;
+            int unitsConsumed;
+            for (;;) {
+                System.out.println("Enter consumer name, number, month, and units consumed or type 'Exit' to exit the program:");
+                consumerName = scanner.next();
+                if(consumerName.equalsIgnoreCase("Exit")){
+                    break;
+                }
+                consumerNumber = scanner.nextInt();
+                month = scanner.next();
+                unitsConsumed = scanner.nextInt();
+                
+                
+                double billAmount = getBill(unitsConsumed);
+                
+                System.out.println("--- Electricity Bill ---");
+                System.out.println("Consumer Name: " + consumerName);
+                System.out.println("Consumer Number: " + consumerNumber);
+                System.out.println("Month: " + month);
+                System.out.println("Units Consumed: " + unitsConsumed);
+                System.out.printf("Bill Amount: ₹%.2f%n", billAmount);
+            }
         }
     }
 
