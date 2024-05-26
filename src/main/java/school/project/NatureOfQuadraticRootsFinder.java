@@ -3,8 +3,8 @@ package school.project;
 import java.util.Scanner; // Importing the Scanner class for user input
 
 /**
- * The NatureOfQuadraticRootsFinder program is a java application that finds the nature of the roots 
- * of a quadratic equation based on the coefficients.
+ * This class is a java application that finds the nature of the roots of a quadratic equation based 
+ * on the coefficients.
  * 
  * @author Navonil Mandal
  * @version 1.0

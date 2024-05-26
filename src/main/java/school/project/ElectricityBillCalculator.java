@@ -3,8 +3,8 @@ package school.project; // Package declaration for the class
 import java.util.Scanner; // Importing the Scanner class for user input
 
 /**
- * The ElectricityBillCalculator program is a Java application that calculates the electricity bill 
- * for consumers based on the units consumed.
+ * This class is a java application that calculates the electricity bill for consumers based on the 
+ * units consumed.
  * 
  * @author Navonil Mandal
  * @version 1.0 

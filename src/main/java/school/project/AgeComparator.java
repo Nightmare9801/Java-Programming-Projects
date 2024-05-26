@@ -3,7 +3,8 @@ package school.project;
 import java.util.Scanner; // Importing the Scanner class for user input
 
 /**
- * A class to compare ages and find the oldest and youngest person among three people.
+ * This class is a java application that compares ages and find the oldest and youngest person among 
+ * three people.
  * 
  * @author Navonil Mandal
  * @version 1.0

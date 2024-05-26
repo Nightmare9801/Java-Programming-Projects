@@ -3,8 +3,7 @@ package school.project;
 import java.util.Scanner; // Importing the Scanner class for user input
 
 /**
- * The SelectiveDivisibiltyChecker program is a java application that tests whether a number is 
- * divisible by 3 and 5.
+ * This class is a java application that tests whether a number is divisible by 3 and 5.
  * 
  * @author Navonil Mandal
  * @version 1.0 

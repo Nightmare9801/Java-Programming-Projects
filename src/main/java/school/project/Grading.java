@@ -3,7 +3,7 @@ package school.project;
 import java.util.Scanner; // Importing the Scanner class for user input
 
 /**
- * A class to determine the grade based on marks entered by the user.
+ * This class is a java application that determines the grade based on marks entered by the user.
  * 
  * @author Navonil Mandal
  * @version 1.0

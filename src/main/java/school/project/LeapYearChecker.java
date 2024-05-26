@@ -3,7 +3,7 @@ package school.project;
 import java.util.Scanner; // Importing the Scanner class for user input
 
 /**
- * A class to check if a given year is a leap year.
+ * This class is a java application that checks if a given year is a leap year.
  * 
  * @author Navonil Mandal
  * @version 1.0

@@ -3,7 +3,8 @@ package school.project;
 import java.util.Scanner; // Importing the Scanner class for user input
 
 /**
- * A class to check if a given rectangle is actually a square based on its dimensions.
+ * This class is a java application that checks if a given rectangle is actually a square based on its 
+ * dimensions.
  * 
  * @author Navonil Mandal
  * @version 1.0

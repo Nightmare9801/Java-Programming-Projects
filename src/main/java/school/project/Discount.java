@@ -3,7 +3,8 @@ package school.project;
 import java.util.Scanner; // Importing the Scanner class for user input
 
 /**
- * A class to calculate the total cost with or without discount based on the quantity of items.
+ * This class is a java application that calculates the total cost with or without discount based on 
+ * the quantity of items.
  * 
  * @author Navonil Mandal
  * @version 1.0
