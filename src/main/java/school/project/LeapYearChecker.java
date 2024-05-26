@@ -37,7 +37,7 @@ public class LeapYearChecker { // Class declaration
                 if (year == -1) {
                     break; // Exit mechanism
                 }
-                System.out.println(isLeapYear(year)); // Check if the year is a leap year
+                System.out.println(isLeapYear(year)); // Print if the year is a leap year
             }
         }
     }

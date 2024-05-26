@@ -48,7 +48,7 @@ public class ElectricityBillCalculator { // Class declaration
                 System.out.println("Consumer Number: " + consumerNumber); // Print consumer number
                 System.out.println("Month: " + month); // Print the month
                 System.out.println("Units Consumed: " + unitsConsumed); // Print the units consumed
-                System.out.println("Bill Amount: ₹"+ billAmount); // Display bill amount in Indian Rupees
+                System.out.println("Bill Amount: Rs"+ billAmount); // Display bill amount in Indian Rupees
             }
         }
     }
