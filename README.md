@@ -21,4 +21,4 @@ Below are descriptions of the programs included in this repository:
 
 9. **Quadratic Equation Roots:** By taking inputs for coefficients a, b, and c of a quadratic equation, this program calculates the discriminant to determine the nature of the roots (real, equal, or imaginary) using **VS Code**.
 
-Each program includes program code, comments, a variable description table, and sample output to facilitate understanding and usage in **VS Code** environment.
+Each program includes program code and comments to facilitate understanding and usage in **VS Code** environment.
